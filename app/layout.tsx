@@ -20,7 +20,23 @@ export default function RootLayout({
   return (
     <ConvexClientProvider>
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <header className="flex items-center p-4 shadow-md blue-900">
+            <Link href="/">
+              <h1 className="text-2xl font-bold">Home</h1>
+            </Link>
+            <Link href="/Soccer">
+              <h1 className="text-2xl ml-4">Soccer</h1>
+            </Link>
+            <Link href="/NBA">
+              <h1 className="text-2xl ml-4">NBA</h1>
+            </Link>
+            <Link href="/NFL">
+              <h1 className="text-2xl ml-4">NFL</h1>
+            </Link>
+          </header>
+          {children}
+        </body>
       </html>
     </ConvexClientProvider>
   );
