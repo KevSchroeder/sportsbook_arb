@@ -21,7 +21,7 @@ export default function RootLayout({
     <ConvexClientProvider>
       <html lang="en">
         <body className={inter.className}>
-          <header className="flex items-center p-4 shadow-md blue-900">
+          <header className="flex items-center p-4 shadow-md shadow-sky-300 rounded-b-xl bg-sky-200">
             <Link href="/">
               <h1 className="text-2xl font-bold">Home</h1>
             </Link>
