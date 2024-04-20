@@ -34,6 +34,12 @@ export default function RootLayout({
             <Link href="/NFL">
               <h1 className="text-2xl ml-4">NFL</h1>
             </Link>
+            <Link href="/NHL">
+              <h1 className="text-2xl ml-4">NHL</h1>
+            </Link>
+            <Link href="/NCAA Basketball">
+              <h1 className="text-2xl ml-4">NCAA Basketball</h1>
+            </Link>
           </header>
           {children}
         </body>

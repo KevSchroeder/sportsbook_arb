@@ -1,18 +1,16 @@
 import React from 'react';
-import { useQuery } from "convex/react";
-import { api } from "@/convex/_generated/api";
 
 const buttonClass = 'bg-zinc-700 px-3 py-1 rounded';
 const cardClass = 'bg-zinc-700 p-2 rounded';
-const sgpClass = 'bg-orange-600 px-2 py-1 text-xs rounded mr-2';
+const sgpClass = 'bg-green-600 px-2 py-1 text-xs rounded mr-2';
 const oddsClass = 'flex space-x-4';
-const teamOddsClass = 'text-orange-500';
+const teamOddsClass = 'text-green-500';
 
 const SoccerOddsComponent = () => {
     return (
         <div className="bg-zinc-800 text-white p-4">
             <div className="flex justify-between items-center mb-4">
-                <div className="text-lg font-bold">Soccer Odds / USA - MLS Odds</div>
+                <div className="text-lg font-bold">Sportsbook / Soccer Odds / USA - MLS Odds</div>
                 <div className="flex space-x-2">
                     <button className={buttonClass}>Game Lines</button>
                     <button className={buttonClass}>Quick SGP</button>
