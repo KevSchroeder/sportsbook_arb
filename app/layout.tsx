@@ -41,7 +41,7 @@ export default function RootLayout({
               <h1 className="text-2xl ml-4">NCAA Basketball</h1>
             </Link>
           </header>
-          {children}
+            {children}
         </body>
       </html>
     </ConvexClientProvider>
