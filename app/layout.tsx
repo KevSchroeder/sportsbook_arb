@@ -21,26 +21,6 @@ export default function RootLayout({
     <ConvexClientProvider>
       <html lang="en">
         <body className={inter.className}>
-          <header className="flex items-center p-4 shadow-md shadow-sky-300 rounded-b-xl bg-sky-200">
-            <Link href="/">
-              <h1 className="text-2xl font-bold">Home</h1>
-            </Link>
-            <Link href="/Soccer">
-              <h1 className="text-2xl ml-4">Soccer</h1>
-            </Link>
-            <Link href="/NBA">
-              <h1 className="text-2xl ml-4">NBA</h1>
-            </Link>
-            <Link href="/NFL">
-              <h1 className="text-2xl ml-4">NFL</h1>
-            </Link>
-            <Link href="/NHL">
-              <h1 className="text-2xl ml-4">NHL</h1>
-            </Link>
-            <Link href="/NCAA Basketball">
-              <h1 className="text-2xl ml-4">NCAA Basketball</h1>
-            </Link>
-          </header>
             {children}
         </body>
       </html>
